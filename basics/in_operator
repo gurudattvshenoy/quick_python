@@ -1,0 +1,24 @@
+#operator in
+print('a' in ['b','c','a'])
+print(100 in range(200))
+#len
+l = [1,2,3,4]
+print("length of list - {} = {}".format(l,len(l)))
+
+d = {'a':1,'b':2,'c':3,'d':4}
+print("length of dict - {} = {}".format(d,len(d)))
+
+s = {1,2,3,4}
+print("length of set - {} = {}".format(s,len(s)))
+
+t = (1,2,3,4)
+print("length of tuple - {} = {}".format(t,len(t)))
+
+#Output
+
+#True
+#True
+#length of list - [1, 2, 3, 4] = 4
+#length of dict - {'a': 1, 'b': 2, 'c': 3, 'd': 4} = 4
+#length of set - {1, 2, 3, 4} = 4
+#length of tuple - (1, 2, 3, 4) = 4
